@@ -1,0 +1,219 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+a { color: inherit;
+ } 
+body{
+    background-image: url("quadra.gif");
+    background-color: rgb(31, 30, 30);
+    background-blend-mode: overlay;
+    background-attachment:local;
+    background-origin: initial;
+    background-repeat: no-repeat;
+    backdrop-filter: unset;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#iphone img{
+    width: 15%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+    /* O github pages não roda o video, portanto ele pegara o gif
+    background: url("../img/video.mp4") no-repeat;*/
+	background-size: cover; 
+}
+h5{
+    display: none;
+}
+#baixarApp{
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
+#baixarApp h4{
+    float: left;
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+#baixarApp button{
+    float: left;
+    margin-top: 0.9%;
+    margin-left: 0%;
+}
+#background img{
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 27%;
+}
+#fiap img{
+    margin-top: 2%;
+    width: 50%;
+    text-align: center;
+}
+#botao{
+    margin-left: 5%;
+}
+
+#botao button{
+    width: 8%;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+#botao :hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 20%;
+    left: 75%;
+    margin-top:-40%;
+    color: white;
+    font-weight: bolder;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.356);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  @media (max-width: 600px) {
+    body{
+        background-image: url("celularback.gif");
+        background-color: rgb(31, 30, 30);
+        background-blend-mode: overlay;
+        background-attachment:local;
+        background-origin: initial;
+        background-repeat: no-repeat;
+        backdrop-filter: unset;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: 150%;
+        -o-background-size: cover;
+    }
+    #menu{
+        display: none;
+    }
+    .card{
+        width: 80%;
+        height: 10%;
+        left: 10%;
+        margin-left: 1%;
+        margin-right: 2%;
+        margin-top:10%;
+        color: black;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0.11);
+        text-align: center;
+    }
+    .card img{
+        width: 50%;
+        position: relative;
+       
+    }
+    .card a{
+        position: relative;
+        float: left;
+        padding: 5px;
+        color: white;
+        margin-top: -10%;
+        text-align: center;
+    }
+    hr{
+        display: none;
+    }
+    .card p{
+        margin-top: -10%;
+        color: white;
+    }
+    
+    
+    #background img{
+        width: 90%;
+        margin-top: 15%;
+    }
+    #baixarApp{
+        background-color:  rgba(0, 0, 0, 0.322);
+        color: black;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        height: 10%;
+        display: none;
+    }
+    #baixarApp h4{
+        float: left;
+        text-align: center;
+        padding-right: 3%;
+        padding-left: 3%;
+        margin-top: 0%;
+        display: none;
+    }
+    #baixarApp button{
+        float: left;
+        margin-top: -10%;
+        margin-left: 60%;
+    }
+    #botao{
+        padding: 30px;
+        width: 10%;
+        margin-left: -3px;
+    }
+    #botao button{
+        width: 200%;
+    }
+    h5{
+        margin-top: 5%;
+        display: block;
+        text-align: left;
+        margin-left: 10%;
+    }
+    
+}
